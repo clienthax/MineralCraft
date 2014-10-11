@@ -1,20 +1,24 @@
 //BLOCKS
-tile.MineralCraft_pheonixShardOre.name=Pheonix Shard Ore
-tile.MineralCraft_platinumOre.name=Platinum Ore
-itemGroup.tabMineralCraft=Blocks and Items(Rockcraft)
-tile.MineralCraft_platinumBlock.name=Block of Platinum
-tile.MineralCraft_ultimaBlock.name=Block of Ultima
+tile.enderPheonixShardOre.name=Ender's Pheonix Shard Ore
+tile.pheonixShardOre.name=Pheonix Shard Ore
+tile.platinumOre.name=Platinum Ore
+tile.platinumBlock.name=Block of Platinum
+tile.ultimaBlock.name=Block of Ultima
 
 //CREATIVE TABS
-itemGroup.tabRockTools=Tools(Rockcraft)
-itemGroup.tabMineralCraft=Blocks and Items(Rockcraft)
+itemGroup.tabRockTools=Tools(MineralCraft)
+itemGroup.tabMineralCraft=Blocks and Items(MineralCraft)
 
 //ITEMS
-tile.MineralCraft_enderPheonixShardOre.name=Ender's Pheonix Shard Ore
-item.MineralCraft_ultimaPick.name=Ultima Pick
-item.MineralCraft_fireDagger.name=Firey Dagger of Ultimation
-item.MineralCraft_ultimaIngot.name=Ultima Ingot
-item.MineralCraft_platinumShard.name=Platinum Shard
-item.MineralCraft_platinumIngot.name=Platinum Ingot
-item.MineralCraft_ultimaSword.name=Ultima Sword
-item.MineralCraft_pheonixShard.name=Pheonix Shard
+item.platinumApple.name=Platinum Apple
+item.ultimaPick.name=Ultima Pick
+item.fireDagger.name=Firey Dagger of Ultimation
+item.ultimaIngot.name=Ultima Ingot
+item.platinumShard.name=Platinum Shard
+item.platinumIngot.name=Platinum Ingot
+item.ultimaSword.name=Ultima Sword
+item.pheonixShard.name=Pheonix Shard
+item.stoneBoots.name=Stone Boots
+item.stoneLeggings.name=Stone Leggings
+item.stoneChestplate.name=Stone Chestplate
+item.stoneHelmet.name=Stone Helmet

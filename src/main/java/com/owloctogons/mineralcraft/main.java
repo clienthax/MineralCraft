@@ -133,10 +133,14 @@ public class main
     	GameRegistry.registerItem(ultimaSword, "ultimaSword");
     	
     	//REGISTRYS(ARMOR)
-    	stoneHelmet = new StoneArmor(stoneArmorMaterial, 0, 0);
-    	stoneChestplate = new StoneArmor(stoneArmorMaterial, 0, 1);
-    	stoneLeggings = new StoneArmor(stoneArmorMaterial, 0, 2);
-    	stoneBoots = new StoneArmor(stoneArmorMaterial, 0, 3);
+    	stoneHelmet = new StoneArmor(stoneArmorMaterial, 0, 0).setUnlocalizedName("stoneHelmet").setCreativeTab(tabMineralCraft).setTextureName("iron_helmet");
+    	stoneChestplate = new StoneArmor(stoneArmorMaterial, 0, 1).setUnlocalizedName("stoneChestplate").setCreativeTab(tabMineralCraft).setTextureName("iron_chestplate");
+    	stoneLeggings = new StoneArmor(stoneArmorMaterial, 0, 2).setUnlocalizedName("stoneLeggings").setCreativeTab(tabMineralCraft).setTextureName("iron_leggings");
+    	stoneBoots = new StoneArmor(stoneArmorMaterial, 0, 3).setUnlocalizedName("stoneBoots").setCreativeTab(tabMineralCraft).setTextureName("iron_boots");
+    	GameRegistry.registerItem(stoneHelmet, stoneHelmet.getUnlocalizedName().substring(5));
+    	GameRegistry.registerItem(stoneChestplate, stoneChestplate.getUnlocalizedName().substring(5));
+    	GameRegistry.registerItem(stoneLeggings, stoneLeggings.getUnlocalizedName().substring(5));
+    	GameRegistry.registerItem(stoneBoots, stoneBoots.getUnlocalizedName().substring(5));
     	
     	//BLOCK RECIPES
 		GameRegistry.addRecipe(new ItemStack(platinumBlock), new Object[]{
@@ -201,6 +205,27 @@ public class main
 		"   ",
 		"ABA",
 		'A',Items.iron_ingot,'B',Items.bucket});
+		//ARMOR RECIPES
+		GameRegistry.addRecipe(new ItemStack(stoneBoots), new Object[]{
+		"   ",
+		"A A",
+		"A A",
+		'A',Blocks.stone});
+		GameRegistry.addRecipe(new ItemStack(stoneLeggings), new Object[]{
+		"AAA",
+		"A A",
+		"A A",
+		'A',Blocks.stone});
+		GameRegistry.addRecipe(new ItemStack(stoneChestplate), new Object[]{
+		"A A",
+		"AAA",
+		"AAA",
+		'A',Blocks.stone});
+		GameRegistry.addRecipe(new ItemStack(stoneHelmet), new Object[]{
+		"AAA",
+		"A A",
+		"   ",
+		'A',Blocks.stone});
     }
     
     //CREATIVE TABS
