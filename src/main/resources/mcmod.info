@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MineralCraft",
+  "name": "MineralCraft",
+  "description": "A fun addition to minecraft, including new ore and more!!",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["owloctogons"],
+  "credits": "Wuppy29 for his basic tutorials",
+  "logoFile": "mineralcraft",
+  "screenshots": [],
+  "dependencies": []
+}
+]
