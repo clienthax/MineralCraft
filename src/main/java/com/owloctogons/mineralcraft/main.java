@@ -133,10 +133,10 @@ public class main
     	GameRegistry.registerItem(ultimaSword, "ultimaSword");
     	
     	//REGISTRYS(ARMOR)
-    	stoneHelmet = new StoneArmor(stoneArmorMaterial, 0, 0).setUnlocalizedName("stoneHelmet").setCreativeTab(tabMineralCraft).setTextureName("iron_helmet");
-    	stoneChestplate = new StoneArmor(stoneArmorMaterial, 0, 1).setUnlocalizedName("stoneChestplate").setCreativeTab(tabMineralCraft).setTextureName("iron_chestplate");
-    	stoneLeggings = new StoneArmor(stoneArmorMaterial, 0, 2).setUnlocalizedName("stoneLeggings").setCreativeTab(tabMineralCraft).setTextureName("iron_leggings");
-    	stoneBoots = new StoneArmor(stoneArmorMaterial, 0, 3).setUnlocalizedName("stoneBoots").setCreativeTab(tabMineralCraft).setTextureName("iron_boots");
+    	stoneHelmet = new StoneArmor(stoneArmorMaterial, 0, 0).setUnlocalizedName("stoneHelmet").setCreativeTab(tabMineralCraft).setTextureName("mineralcraft:stoneHelmet");
+    	stoneChestplate = new StoneArmor(stoneArmorMaterial, 0, 1).setUnlocalizedName("stoneChestplate").setCreativeTab(tabMineralCraft).setTextureName("mineralcraft:stoneChestplate");
+    	stoneLeggings = new StoneArmor(stoneArmorMaterial, 0, 2).setUnlocalizedName("stoneLeggings").setCreativeTab(tabMineralCraft).setTextureName("mineralcraft:stoneLeggings");
+    	stoneBoots = new StoneArmor(stoneArmorMaterial, 0, 3).setUnlocalizedName("stoneBoots").setCreativeTab(tabMineralCraft).setTextureName("mineralcraft:stoneBoots");
     	GameRegistry.registerItem(stoneHelmet, stoneHelmet.getUnlocalizedName().substring(5));
     	GameRegistry.registerItem(stoneChestplate, stoneChestplate.getUnlocalizedName().substring(5));
     	GameRegistry.registerItem(stoneLeggings, stoneLeggings.getUnlocalizedName().substring(5));
