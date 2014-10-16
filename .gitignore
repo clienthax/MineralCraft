@@ -3,6 +3,8 @@
 *.iml
 *.ipr
 *.iws
+out
+run
 
 # Windows image file caches
 Thumbs.db
